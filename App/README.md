@@ -1,10 +1,11 @@
-# README Dev
+
+  # README-Developer
 
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
 
   ## Description
    
-  Description
+  DESC
 
   ## Table of Contents  
   * [Description](#description)
@@ -22,11 +23,11 @@
 
   ## Installation
 
-  Steps
+  INSTALLATION
 
   ## Usage
 
-  Using it
+  USAGE
 
   ## Contributing
 
@@ -45,3 +46,8 @@
   Here is my GitHub Profile: [jeffymiyoung](http://github.com/jeffymiyoung)
 
   Have any questions? Email me here: [jeffreymiyoung@aol.com](mailto:jeffreymiyoung@aol.com)
+
+  
+  ---
+
+  © 2022 README-Developer

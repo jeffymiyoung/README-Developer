@@ -107,6 +107,11 @@ function generateMarkdown(data) {
   Here is my GitHub Profile: [${data.github}](http://github.com/${data.github})
 
   Have any questions? Email me here: [${data.email}](mailto:${data.email})
+
+  
+  ---
+
+  © 2022 ${data.title}
 `);
 }
 
