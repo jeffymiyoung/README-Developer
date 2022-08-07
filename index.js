@@ -22,7 +22,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose which license you used on your Project!',
-        choices: ['ISC', 'MIT', 'Apache', 'Boost', 'BSD', 'GNU', 'Eclipse', 'No License']
+        choices: ['Apache', 'Boost', 'BSD', 'Eclipse', 'GNU', 'ISC', 'MIT', 'None']
     },
     {
         type: 'input',
