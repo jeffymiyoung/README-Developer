@@ -27,7 +27,7 @@
 ## Screenshot:
 
 
-* Screenshot:
+![This is the inquery prompt and various answers for the README-Developer Application](./assets/terminal%20screenshot.PNG)
 
 
 

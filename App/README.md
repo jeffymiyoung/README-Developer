@@ -5,7 +5,7 @@
 
   ## Description
    
-  DESC
+  Ever need an application to create a README.md for a project? Well README Developer is the application just for that purpose! Download the Node.js Application and start the inquery prompt, after a few inputs and selections, a personalized README will be generated!
 
   ## Table of Contents  
   * [Description](#description)
@@ -23,19 +23,19 @@
 
   ## Installation
 
-  INSTALLATION
+  Download the provided zip folder from the repository. After finished downloading, proceed to the `/app` directory, and begin downloading the necesarry npm packages with `npm i`. Once all npm packages are installed, the application is all ready to be used!
 
   ## Usage
 
-  USAGE
+  Once ready to use, stay in the `/app` directory and run command `node index` - this will prompt the inquirer questions! Please fill out the inquery appropriately, and watch the README get generated shortly after!
 
   ## Contributing
 
-  NA
+  N/A
 
   ## Tests
   
-  NA
+  N/A
 
   ## License
 
