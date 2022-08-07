@@ -1,6 +1,5 @@
 // Licenses variable
 const licenses = {
-  // ['Apache', 'Boost', 'BSD', 'Eclipse', 'GNU', 'ISC', 'MIT', 'None']
   Apache: {
     markdown: "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)",
     url: "https://opensource.org/licenses/Apache-2.0"
@@ -56,9 +55,59 @@ function renderLicenseSection(license) {}
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
 
-`;
+  const { license } = data;
+
+  // README template
+  return (`
+  # ${data.title}
+
+  ${renderLicenseBadge(license)}
+
+  ## Description
+   
+  ${data.description}
+
+  ## Table of Contents  
+  * [Description](#description)
+  * [Technologies](#technologies)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#License)
+  * [Questions](#questions)
+  
+  ## Technologies
+
+  ${data.technologies}
+
+  ## Installation
+
+  ${data.installation}
+
+  ## Usage
+
+  ${data.usage}
+
+  ## Contributing
+
+  ${data.contribution}
+
+  ## Tests
+  
+  ${data.test}
+
+  ## License
+
+  * Licensed through the [${data.license}](${renderLicenseLink(license)}) license.
+
+  ## Questions
+
+  Here is my GitHub Profile: [${data.github}](http://github.com/${data.github})
+
+  Have any questions? Email me here: [${data.email}](mailto:${data.email})
+`);
 }
 
 // Export for External

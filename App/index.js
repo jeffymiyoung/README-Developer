@@ -39,9 +39,9 @@ const questions = [
     },
     {
         type: 'checkbox',
-        name: 'languages',
+        name: 'technologies',
         message: 'What did you build this project with? (Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+        choices: [' JavaScript', ' HTML', ' CSS', ' ES6', ' jQuery', ' Bootstrap', ' Node']
     },
     {
         type: 'input',
@@ -103,7 +103,7 @@ function writeToFile(fileName, data) {
 // Function to initialize the app
 function init() {
     return inquirer.prompt(questions)
-    .then((answers) => {writeToFile('README', generateMarkdown(answers))} )
+    .then((answers) => {writeToFile('README.md', generateMarkdown(answers))} )
     .then((err) => err ? console.log('An error occured!', err) : console.log('README.md was succesfully created!'));
 };
 

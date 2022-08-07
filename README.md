@@ -2,7 +2,7 @@
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description:
-* 
+* Ever need an application to create a README.md for a project? Well README Developer is the application just for that purpose! Download the Node.js Application and start the inquery prompt, after a few inputs and selections, a personalized README will be generated!
 
 ## Tables of Contents:
 * [Technologies](#technologies)
@@ -16,16 +16,11 @@
 ## Technologies:
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
 ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 ![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) 
 
 ## NPM Packages:
-* [chalk v4.1.2](https://www.npmjs.com/package/chalk/v/4.1.2)
-
-* [figlet v1.5.2](https://www.npmjs.com/package/figlet)
 
 * [inquirer v6.3](https://www.npmjs.com/package/inquirer)
 
@@ -39,11 +34,14 @@
 
 ## Installation:
 * Download the zip file, or clone to your local machine.
-* Open a new terminal in the correct directory, and run command: `npm i`
+* After finished downloading, proceed to the `/app` directory
+* Begin downloading the necessary npm packages with `npm i`
+* Once all npm packages are installed, the application is ready to be used!
 
 
 ## Usage:
-
+* Stay in the `/app` directory and run command `node index`
+* Please fill out the inquery appropriately and watch the README get generated shortly after!
 
 ## Author(s):
 * Jeffrey Young
