@@ -25,11 +25,16 @@
 * [inquirer v6.3](https://www.npmjs.com/package/inquirer)
 
 ## Screenshot:
+* Walkthrough Video:
+
+
+https://user-images.githubusercontent.com/98984804/183502319-4d16837e-9cc7-48ff-9798-d033f24efae4.mp4
+
+
+
 
 
 ![This is the inquery prompt and various answers for the README-Developer Application](./assets/terminal%20screenshot.PNG)
-
-
 
 
 ## Installation:
